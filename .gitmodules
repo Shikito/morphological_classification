@@ -1,0 +1,3 @@
+[submodule "controller/controller/master_thesis_simulator"]
+	path = controller/controller/master_thesis_simulator
+	url = git@github.com:Shikito/master_thesis_simulator.git

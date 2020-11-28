@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'controller'
+package_name = 'morphological_classification'
 
 setup(
     name=package_name,
@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'controller = ' + package_name + '.controller_interface:main',
+            'classifier = ' + package_name + '.classifier_node:main'
         ],
     },
 )
